@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("\newwonder.jpeg");
+    background-position: center;
+    background-repeat: repeat;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    background-color: aquamarine;
+    color:coral;
+
+}
+.nav-links{
+    color: red;
+}
+.logo{
+    font-size: 32px;
+}
+.menu{
+    display: flex;
+    gap:1em;
+    font-size: 22px;
+}
+.menu li:hover{
+    border-color: rgb(123,45,88);
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.menu li{
+    padding:5px 14px;
+}
+a:visited{
+    color:rgb(30,128,0);
+}
+a:hover{
+    color:brown;
+}
+a{
+    font-size: 35px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-indent: 100px;
+}
+.explorer{
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    height: 400px;
+    width: 300px;
+    padding: 2px;
+    float: right;
+}
+#list{
+    text-align: center;
+    margin-left: 10%;
+}
+input[type=checkbox]{
+    display: none;
+}
+.hamburger{
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+button {
+    color:red;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 35%;
+    margin-top: 5%;
+    background-color: yellow;
+    font-weight: bold;
+  }
+  button a:hover{
+    color:rgba(234, 56, 181, 0.854);
+  }
+
+@media (max-width:768px){
+    a{
+        font-size: 35px;
+        text-align: center;
+        text-decoration-line: underline;
+        text-indent: 100px;
+    }
+    body{
+        background-image: url("\newwonder.jpeg");
+        background-position: center;
+    }
+    .explorer{
+        display: block;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        height: 400px;
+        width: 300px;
+        padding: 2px;
+        float:right;
+    }
+    #list{
+        text-align: center;
+        margin-left: 25%;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        background-color: aquamarine;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+    .menu li:hover{
+        display: inline-block;
+        background-color: cyan;
+        transition: 0.3s ease;
+    }
+    .menu li+li{
+        margin-top: 12px;
+    }
+    input[type=checkbox]:checked~.menu{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    
+    button {
+        color:red;
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 23px;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-left: 35%;
+        margin-top: 5%;
+        background-color: yellow;
+        font-weight: bold;
+      }
+
+}

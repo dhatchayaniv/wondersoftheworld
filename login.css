@@ -1,0 +1,21 @@
+h3{
+    font-style: italic;
+    font-stretch: expanded;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 75px;
+    background-color: blueviolet;
+}
+p{
+    font-weight: 200;
+    font-style: italic;
+    text-align: justify;
+    font-size: 40px;
+}
+body{
+    background-color: goldenrod;
+}
+p:first-letter{
+    margin-left: 45px;
+    font-size: 60px;
+}
