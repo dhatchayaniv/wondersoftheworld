@@ -1,1 +1,1 @@
-https://dhatchayaniv.github.io/website/
+https://dhatchayaniv.github.io/wondersoftheworld/
